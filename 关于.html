@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Z(关于)</title>
+  <link rel="icon" href="img/web-1.png" type="image/x-icon"/>
+  <link rel="shortcut icon" href="img/web-1.png" type="image/x-icon"/>
+  <meta charset="utf-8">
+  <script src="js/jquery-1.8.3.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.staticfile.net/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://cdn.staticfile.net/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdn.staticfile.net/popper.js/1.15.0/umd/popper.min.js"></script>
+  <script src="https://cdn.staticfile.net/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="css/网页下拉回到顶部.css">
+  <script src="js/网页返回顶部.js"></script>
+</head>
+<button onclick="topFunction()" id="myBtn" title="回顶部"><i class="bi bi-arrow-up"></i></button>
+<nav class="navbar navbar-expand-lg navbar-light bg-light shadow p-3 mb-2 sticky-top">
+  <a class="navbar-brand" href="主页第一页.html"><img src="img/web-1.png" alt="" width="45"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent">
+      <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+          <a class="nav-link bi bi-house text-secondary" href="主页第一页.html" target="_blank" style="text-decoration: none;">&nbsp;主页</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link bi bi-three-dots text-secondary" style="text-decoration: none;" data-display="static" id="navbardrop" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">&nbsp;更多</a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item text-secondary" href="旅行.html"><i class="bi bi-airplane-fill"></i>&nbsp;旅行</a>
+          <a class="dropdown-item text-secondary" href="广告.html"><i class="bi bi-badge-ad-fill"></i>&nbsp;广告</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item text-secondary" href="测试.html"><i class="bi bi-question-circle-fill"></i>&nbsp;测试</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link bi bi-file-person-fill text-secondary" href="关于.html" target="_blank" style="text-decoration: none;">&nbsp;关于</a>
+      </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="搜索">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">搜索</button>
+      </form>
+      &nbsp;
+      <form class="form-inline my-2 my-lg-0">
+      <a class="btn btn-primary" href="登录.html" role="button">登录</a>
+      </form>
+    </div>
+</nav>
+<!--ABOUT-->
+  <div class="img-b">
+    <div class="jumbotron jumbotron-fluid text-white d-flex align-items-center m-o">
+      <div class="container">
+      <h1 class="display-4">为什么我们是Z</h1>
+      <h1>这不仅仅是生活</h1>
+      <p class="lead">这更是一种态度</p>
+    </div>
+    </div>
+</div>
+<!--css-->
+<style>
+  .img-b{
+    background: url("img/高速公路上交通阻塞.jpg");
+    background: size 19px;
+}
+.jumbotron{
+    height:300px;
+    background: rgba(7, 231, 216, 0.6);
+}
+</style>
+<div class="p-4">
+  <h5 class="text-center my-3">我们的团队</h5>
+  <h5 class="text-center mb-4 text-decoration"><small>权威专业</small></h5>
+<div class="card-deck">
+  <div class="card">
+    <img class="card-img-top" src="img/商人.svg" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">小李子</h5>
+      <p class="card-text">加拿大温哥华的旅游爱好者</p>
+      <p class="card-text"><small class="text-muted"><i class="bi bi-clock"></i>&nbsp;2022年加入</small></p>
+    <a href="https://twitter.com" target="_blank"<i class="bi bi-twitter text-dark"></i></a>
+    &nbsp;
+    <a href="https://facebook.com" target="_blank"<i class="bi bi-facebook text-dark"></i></a>
+    &nbsp;
+    <a href="https://bilibili.com" target="_blank"<i class="bi bi-youtube text-dark"></i></a>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="img/商人.svg" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Muck</h5>
+      <p class="card-text">网络"购物专家"</p>
+      <p class="card-text"><small class="text-muted"><i class="bi bi-clock"></i>&nbsp;2022年加入</small></p>
+    <a href="https://twitter.com" target="_blank"<i class="bi bi-twitter text-dark"></i></a>
+    &nbsp;
+    <a href="https://facebook.com" target="_blank"<i class="bi bi-facebook text-dark"></i></a>
+    &nbsp;
+    <a href="https://bilibili.com" target="_blank"<i class="bi bi-youtube text-dark"></i></a>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="img/商人.svg" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Patel</h5>
+      <p class="card-text">ZBlog站长</p>
+      <p class="card-text"><small class="text-muted"><i class="bi bi-clock"></i>&nbsp;2022年加入</small></p>
+    <a href="https://twitter.com" target="_blank"<i class="bi bi-twitter text-dark"></i></a>
+    &nbsp;
+    <a href="https://facebook.com" target="_blank"<i class="bi bi-facebook text-dark"></i></a>
+    &nbsp;
+    <a href="https://bilibili.com" target="_blank"<i class="bi bi-youtube text-dark"></i></a>
+    </div>
+  </div>
+</div>
+</div>
+<hr>
+<!--折叠-->
+<div class="p-4">
+  <h5 class="text-center my-3">我们的权威</h5>
+<div id="accordion">
+  <div class="card">
+  <div class="card-header">
+    <a class="collapsed card-link" data-toggle="collapse" href="#collapse">
+    信任
+  </a>
+  </div>
+  <div id="collapse" class="collapse" data-parent="#accordion">
+    <div class="card-body">
+      在信息化时代，ZBlog以其强大的团队和灵活性，赢得了广大用户的青睐。ZBlog不仅为用户提供了一个展示个人风采、分享知识和经验的平台，更在推动网络文化建设、传播正能量方面发挥着积极作用。
+    </div>
+  </div>
+  </div>
+  <div class="card">
+    <div class="card-header">
+      <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+      强大
+    </a>
+    </div>
+    <div id="collapseTwo" class="collapse" data-parent="#accordion">
+      <div class="card-body">
+        ZBlog拥有庞大的用户群体，这为博客的不断发展和完善提供了强大的动力，根据需求打造出独具特色的社交空间。同时，ZBlog让用户能够轻松实现各种功能和视觉效果，提升博客的吸引力和可读性。
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header">
+      <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
+        安全
+      </a>
+    </div>
+    <div id="collapseThree" class="collapse" data-parent="#accordion">
+      <div class="card-body">
+        安全性方面，ZBlog同样表现出色。博客系统采用了先进的安全机制，有效防范了各类网络攻击和恶意行为，保障了数据的安全和稳定。此外，ZBlog还提供多地备份以保证数据安全，确保用户在使用过程中的数据安全和可靠性。
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+  <!--折叠-->
+  <div class="p-4">
+  <h5 class="text-center my-3">联系我们</h5>
+<div id="accordion">
+  <div class="card">
+  <div class="card-header">
+    <a class="collapsed card-link" data-toggle="collapse" href="#collapse1">
+    邮件/社交媒体
+  </a>
+  </div>
+  <div id="collapse1" class="collapse" data-parent="#accordion">
+    <div class="card-body">
+      有想法？有大故事发送邮件至<a class="has-text-danger text-muted" href="mailto:zblogstory@zcorp.ca" style="text-decoration: none;">zblogstory@zcorp.ca</a>
+      <br>
+      广告投放发送至<a class="has-text-danger text-muted" href="mailto:zwebad@zcorp.ca" style="text-decoration: none;">zwebad@zcorp.ca</a>
+      <br>
+      联系我们请发送邮件至<a class="has-text-danger text-muted" href="mailto:zblog@zcorp.ca" style="text-decoration: none;">zblog@zcorp.ca</a>
+      <br>
+      或关注我们的社交媒体ZBlog&nbsp;<a href="https://twitter.com" target="_blank"<i class="bi bi-twitter text-dark"></i></a>
+      &nbsp;
+      <a href="https://facebook.com" target="_blank"<i class="bi bi-facebook text-dark"></i></a>
+      &nbsp;
+      <a href="https://bilibili.com" target="_blank"<i class="bi bi-youtube text-dark"></i></a>
+    </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  <!--ABOUT-->
+  <div class="img-b1">
+    <div class="jumbotron1 jumbotron-fluid text-white d-flex align-items-center m-o">
+      <div class="container">
+      <h1 class="display-4">加入我们</h1>
+      <h1>遇见美好</h1>
+      <a href="登录.html" class="btn btn-danger">加入</a>
+    </div>
+    </div>
+</div>
+<!--css-->
+<style>
+  .img-b1{
+    background: url("img/市中心或岛.jpg");
+    background: size 19px;
+}
+.jumbotron1{
+    height:300px;
+    background: rgba(7, 231, 216, 0.6);
+}
+</style>
+<!--底部测试-->
+<footer class="p-4 border-top">
+  <div class="container d-flex align-items-center justify-content-between">
+      <p class="mb-0 text-muted">
+          &copy; 2024 Z.Corp. All rights reserved.
+      </p>
+      <ul class="nav">
+          <li class="nav-item"><a href="关于.html" class="nav-link text-muted">关于</a></li>
+      </ul>
+  </div>
+</footer>
+</html>
